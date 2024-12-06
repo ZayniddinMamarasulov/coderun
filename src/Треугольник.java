@@ -10,7 +10,6 @@ public class Треугольник {
         int input2 = Integer.parseInt(reader.readLine());
         int input3 = Integer.parseInt(reader.readLine());
 
-
         if (input1 + input2 > input3 && input2 + input3 > input1 && input1 + input3 > input2)
             System.out.println("YES");
         else
